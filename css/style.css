@@ -63,3 +63,34 @@ main{
 .bg-newsletter-btn{
     background-color: #fdd922;
 }
+/* footer section  */
+.footer-list p{
+    color: #777777;
+}
+.fb-color{
+    color: #3F62A9;
+}
+.twitter-color{
+    color: #00A3E2;
+}
+.link-color{
+    color: #0D709F;
+}
+.insta-color{
+    color: #DE3D60;
+}
+.g-plus-color{
+    color: #D24736;
+}
+
+@media only screen and (max-width: 700px) {
+    footer{
+        text-align: center;
+    }
+    .footer-call{
+        justify-content: center;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+}
